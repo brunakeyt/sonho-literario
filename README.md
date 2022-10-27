@@ -1,6 +1,6 @@
 # Sonho Literário
 
-> 27/10 - Projeto da semana do livro - senai jorge mahfuz
+> 27/10 - Projeto da semana do livro - SENAI Jorge Mahfuz
 
 > Catálogo de livros da biblioteca
 
