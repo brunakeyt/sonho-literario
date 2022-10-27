@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: 'Peralta', cursive;
+	background-image: linear-gradient(180deg, rgb(143, 14, 46) 10%, rgb(125, 166, 219) 50%, rgb(143, 14, 46) 90%);
+	height: 100vmax;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+p {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+header {
+	padding: 20px;
+	text-align: center;
+	font-size: 1.4em;
+	color: black;
+	margin: auto;
+}
+
+main {
+	padding: 20px;
+	text-align: center;
+}
+
+.capas {
+	width: 100%;
+	max-width: 300px;
+	height: 100%;
+	max-height: 400px;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+main ul {
+	display: flex;
+	list-style: none;
+	margin: auto;
+}
+
+main ul li {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+img {
+	transition: transform 1s;
+}
+
+img:hover {
+	transform: scale(1.2);
+}
+
+footer {
+	padding: 30px;
+	font-size: 1.5em;
+	color: black;
+	text-align: center;
+}
+
+/* The navigation bar */
+.navbar {
+	overflow: hidden;
+	background-image: linear-gradient(90deg, rgb(143, 14, 46) 10%, rgb(223, 80, 135) 30%, rgb(125, 166, 219) 50%, rgb(223, 80, 135) 70%, rgb(143, 14, 46) 90%);
+	position: fixed;
+	/* Set the navbar to fixed position */
+	top: 0;
+	right: 0;
+	left: 0;
+	/* Position the navbar at the top of the page */
+	width: 100%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+	float:left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.navbar a:hover {
+	background: #ddd;
+	color: #936;
+}
+
+main div a {
+	text-align: center;
+	padding: 25px;
+	margin: auto;
+	width: fit-content;
+	float: left;
+	display: block;
+}
+
+main div {
+	overflow: hidden;
+	margin-top: 30px;
+	padding-top: 20px;
+}
+
+.logo{
+	width: 8%;
+	height: 8%;
+}
+
